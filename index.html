@@ -1,77 +1,26 @@
 <!DOCTYPE html>
 <html>
+  <head>
+</head>
 <title>Luís Oliveira GitHub</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://luisoliveira-aeb.github.io/css/estilos.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
-}
-
-/* Efeito Parallax! */
-.bgimg-1, .bgimg-2 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* Primeira imagem de background */
-.bgimg-1 {
-  background-image: url("https://miro.medium.com/max/8544/0*bQ2s1lDGEYzGjWVU");
-  min-height: 100%;
-}
-
-/* Segunda imagem de background */
-.bgimg-2 {
-  background-image: url("https://miro.medium.com/max/8544/0*bQ2s1lDGEYzGjWVU");
-  min-height: 400px;
-}
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, {
-    background-attachment: scroll;
-    min-height: 400px;
-  }
-}
-
-</style>
+<link rel="stylesheet" href="https://luisoliveira-aeb.github.io/css/estilosv2.css">
 <body>
 
-<!-- Botões do Header! -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#sobremim" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user-circle"></i> SOBRE MIM</a>
+<!-- Home Page-->
+<div class="bgimg">
+  <div class="center">
+    <span class="padding-large black xl wide">A MINHA OFICINA</span>
   </div>
 </div>
 
-<!-- Home-->
-<div class="bgimg-1 w3-display-container" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">A MINHA <span class="w3-hide-small">OFICINA</span> GITHUB</span>
-  </div>
-</div>
-
-<!-- Conteúdo do primeiro display -->
-<div class="w3-content w3-container w3-padding-64">
-  <h2 class="w3-center">PT05 - "Iniciação ao HTML"</h2>
-  <div class="w3-row">
-    <div class="w3-col m6 w3-align-left w3-padding-large">
+<!-- Conteúdo -->
+<div class="margem padding-64">
+  <h2>PT05 - "Iniciação ao HTML"</h2>
+    <div class="padding-large">
       <h3> Passo 4 - Primeiros passos em HTML </h3>
+
+      <!-- Lista do Passo 4 -->
       <ul>
           <li><a href="https://luisoliveira-aeb.github.io/passo-4/document.html" target="_blank"> Passo 4.1 </a></li>
           <li><a href="https://luisoliveira-aeb.github.io/passo-4/headings.html" target="_blank"> Passo 4.2 </a></li>
@@ -81,60 +30,16 @@ body, html {
         </ul>
     </div>
 
-    <div class="w3-col m6 w3-align-right w3-padding-large">
+    <div class="padding-large">
       <h3> Passo 5 - Criação de uma tabela em HTML </h3>
+
+      <!-- Lista do Passo 5 -->
       <ul>
-          <li><a href="https://luisoliveira-aeb.github.io/passo-5/tabela.html" target="_blank"> Passo 5.1 </a></li>
+          <li><a href="https://luisoliveira-aeb.github.io/passo-4/blob/main/document.html" target="_blank"> Passo 5.1 </a></li>
       </ul>
     </div>
-  </div>
 </div>
 
-
-
-<div class="bgimg-2 w3-display-container" id="sobremim">
-  <div class="w3-display-middle">
-    <span class="w3-padding-large w3-xxlarge w3-black w3-text-white w3-wide">SOBRE MIM</span>
-  </div>
-</div>
-
-  <!-- Conteúdo do segundo display -->
-  <div class="w3-content w3-container w3-padding-64">
-    <div class="w3-row w3-padding-32 w3-section">
-      <div class="w3-col m4 w3-container">
-        <img src="img/bottompic.jpeg" class="w3-image w3-round" style="width:100%">
-      </div>
-      <div class="w3-col m8 w3-panel">
-        <div class="w3-large w3-margin-bottom">
-          <i class="fa fa-user-circle fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Luís Oliveira<br>
-          <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Benfica, Lisboa, PT<br>
-          <i class="fa fa-home fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Escola Secundária José Gomes Ferreira<br>
-          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email institucional: 11322@aluno.aebenfica.pt<br>
-          <i class="fa fa-cloud fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Link direto para a minha <a href="https://drive.google.com/drive/folders/13z8z0DjAtR-GtBBW3fM3JXIEtMc6pSyp?usp=sharing" target="_blank" class="w3-hover-text-green"> G.Drive</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
-
-<script>
-
-  // Mudar a topbar após scroll do rato
-  window.onscroll = function() {myFunction()};
-  function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-  }
-</script>
 
 </body>
 </html>
